@@ -1,15 +1,13 @@
 import OpenAI from "openai";
 import * as dotenv from "dotenv";
 
-// Load environment variables (your API key)
+// Load environment variables
 dotenv.config();
 
 const openai = new OpenAI({
   apiKey: process.env.OPENAI_API_KEY,
 });
 
-// 1. MOCK DATA: Simulating a SQL result from BigQuery or your 102 Hubs
-// This reflects your experience with delivery conversions and backlogs
 const hubPerformanceData = [
   {
     hubId: "Hub_01",
@@ -31,11 +29,6 @@ const hubPerformanceData = [
   },
 ];
 
-/**
- * AUTOMATION LOGIC:
- * This function processes raw SQL-like data and uses AI to identify bottlenecks,
- * mirroring your work at ShopUp[cite: 30, 31].
- */
 async function generateOperationalInsights(data: any[]) {
   console.log("🚀 Initializing AI Analysis for Hub Performance...");
 

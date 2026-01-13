@@ -12,18 +12,21 @@ A TypeScript-based AI data automation system for operational intelligence and hu
 ## Setup
 
 1. **Clone the repository**
+
    ```bash
    git clone https://github.com/MdMizanurVU/ai-data-automation.git
    cd ai-data-automation
    ```
 
 2. **Install dependencies**
+
    ```bash
    npm install
    ```
 
 3. **Configure environment variables**
    Create a `.env` file and add your OpenAI API key:
+
    ```
    OPENAI_API_KEY=your_openai_api_key_here
    ```
