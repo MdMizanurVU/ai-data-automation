@@ -1,0 +1,24 @@
+{
+  "name": "ai-data-automation",
+  "version": "1.0.0",
+  "description": "AI-powered data automation system for operational intelligence and hub performance analysis",
+  "main": "dist/index.js",
+  "scripts": {
+    "dev": "ts-node index.ts",
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": ["ai", "automation", "data-analysis", "operational-intelligence", "typescript"],
+  "author": "MdMizanurVU",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^17.2.3",
+    "openai": "^6.16.0"
+  },
+  "devDependencies": {
+    "@types/node": "^25.0.7",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.3"
+  }
+}
